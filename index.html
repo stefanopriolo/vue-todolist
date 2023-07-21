@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="app">
+      <!-- Titolo e bg -->
+      <div class="container bg-mountain">
+        <div class="row p-5">
+          <div class="col text-center">
+            <h1 class="display-1">To Do List!</h1>
+          </div>
+        </div>
+      </div>
+      <!-- TodoList -->
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="card">
+            <div class="row align-items-center">
+              <div class="col-9">
+                <input
+                  type="text"
+                  class="form-control form-control-lg mt-3"
+                  placeholder="Cosa ti vuoi ricordare?"
+                />
+              </div>
+              <div class="col-3 text-center">
+                <button type="button" class="btn btn-success mt-3">
+                  Success
+                </button>
+              </div>
+            </div>
+
+            <!-- Card ListItem -->
+            <div class="card p-3 mt-3 mb-3">
+              <span
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea
+                pariatur cupiditate architecto quas excepturi enim, maxime sunt
+                debitis soluta neque, praesentium aut facere culpa. Sint soluta
+                ex tempore eum doloribus.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
