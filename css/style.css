@@ -3,3 +3,8 @@
     background-size: cover;
     background-position: center;
 }
+
+.form-check-input:checked ~ .textList > span {
+text-decoration: line-through;
+}
+
